@@ -1,0 +1,29 @@
+[0m16:36:29.882755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe14b6a8580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe14bc33c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe149a8bee0>]}
+
+
+============================== 16:36:29.903072 | e31ca060-f45f-496f-9bf4-45aa3cc65902 ==============================
+[0m16:36:29.903072 [info ] [MainThread]: Running with dbt=1.7.13
+[0m16:36:29.904041 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/workspaces/walmart_data-analysis', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m16:36:46.599697 [debug] [MainThread]: Starter project path: /usr/local/python/3.10.13/lib/python3.10/site-packages/dbt/include/starter_project
+[0m16:36:46.604610 [info ] [MainThread]: 
+Your new dbt project "walmart_sales_analysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:36:46.606148 [info ] [MainThread]: Setting up your profile.
+[0m16:37:28.244948 [info ] [MainThread]: Profile walmart_sales_analysis written to /workspaces/walmart_data-analysis/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:37:28.256151 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 58.435505, "process_user_time": 2.827789, "process_kernel_time": 0.204229, "process_mem_max_rss": "91788", "process_in_blocks": "168", "process_out_blocks": "96"}
+[0m16:37:28.257068 [debug] [MainThread]: Command `dbt init` succeeded at 16:37:28.256836 after 58.44 seconds
+[0m16:37:28.257761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe14b6a8580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe149a88970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe149a888b0>]}
+[0m16:37:28.258472 [debug] [MainThread]: Flushing usage events
