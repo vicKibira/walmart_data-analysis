@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: staging
+    database: walmart_db
+    schema: public
+    tables:
+      - name: walmart_sales_data
